@@ -1,0 +1,88 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# Spyder
+.spyderproject
+.spyproject
+.ropeproject
+
+# Environments
+.env
+.venv
+env/
+venv/
+conda-env/
+*.egg-info/
+
+# Logs
+*.log
+*.tmp
+*.bak
+
+# Large raw data - do not upload
+*.nii
+*.nii.gz
+*.nrrd
+*.mha
+*.mgz
+*.img
+*.hdr
+*.dcm
+*.rda
+*.mat
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+
+# Large connectome matrices / full matrices
+*connectome*.csv
+*Connectome*.csv
+*_matrix.csv
+*beta_matrix*.csv
+*FDR_significant_beta_matrix*.csv
+*weight_matrix*.csv
+*stable_edges_70pct_matrix*.csv
+
+# Raw or sensitive animal-level files
+data_raw/
+raw_data/
+raw_connectomes/
+connectomes/
+imaging/
+QIALDB/
+
+# Temporary outputs
+temp/
+tmp/
+scratch/
+
+# Keep README placeholder files
+!.gitkeep
+!README.md
+
+# Allow selected summary csv files
+!fear_conditioning_behavior_phenotypes.csv
+!true_overlap_between_connectome_and_fear_conditioning_5-12.csv
+!*summary*.csv
+!*loadings*.csv
+!*correlations*.csv
+!*tests*.csv
+!*subjects_used*.csv
+!*top_edges_annotated.csv
+!*edges_annotated.csv
+!*node_summary.csv
+!*network_level_summary.csv
+!*component_summary.csv
+!*scores*.csv
